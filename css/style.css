@@ -1,0 +1,151 @@
+/*font-variant caps means capaitalizing every letter with enlarging the first letter,*/
+/* 1em=16 px*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;}
+
+.container{width: 1200px;
+margin: 0 auto;
+overflow: hidden;}
+
+img{max-width: 100%;
+display: block;}
+
+a{text-decoration: none;
+  display: inline-block;}
+
+li{list-style: none;
+   padding: 22px 10px;
+  display: inline-block;}
+
+ul li a{color: black;
+        font-size: 15px;
+        font-weight: 1000;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.5s ease;}
+
+ul li a:hover{color: #90D2EC;
+              transition: all 0.5s ease;}
+
+.padding{width: 800px;
+         margin: 0 auto;}
+
+
+header{padding: 20px 0;}
+.logo{float: left;
+      width: 30%;
+      margin: 0 auto;}
+.logo img{max-width: 70px;}       
+.navigation{float: left;
+            width: 50%;
+            margin: 0 auto;}
+.navigation nav{}
+.navigation nav ul{}
+.navigation nav ul li{list-style: disc;}
+.navigation nav ul li a{}
+.navigation nav ul li a:hover{}
+.hsocial{float: left;
+         width: 20%;
+          margin: 0 auto;
+          padding-left: 25px;}
+.hsocial ul{}
+.hsocial ul li{}
+.hsocial ul li a{}
+.hsocial ul li a:hover{}
+
+
+.banner-section{position: relative;
+                margin-bottom: 50px;}
+.banner{background-color: #F4F8F9;
+               padding: 120px 0;
+               margin-top: 20px;
+               margin-bottom: 100px;
+        text-align: center;}
+.banner h1{font-size: 40px;
+           font-weight: 1000;}
+.banner p{font-size: 25px;
+          margin: 30px 0;}
+.banner ul li{}
+.banner ul li a{font-size: 12px;}
+.banner ul li a:hover{}
+.profile-image{position: absolute;
+               bottom: 25px;
+               left: 43%;}
+.profile-image img{border-radius: 50%;}
+
+
+blog-section{margin-bottom: 50px;}
+.blog{}
+.blog img{margin-bottom: 30px;
+          margin-right: auto;
+          margin-left: auto;}
+.blog span{color: #333333;
+          margin-left: 80px;}
+.blog span a{color: #333333;
+             text-decoration: underline;
+             transition: all 0.5s ease;}
+.blog span a:hover{color: #90D2EC;
+                   transition: all 0.5s ease;
+                   text-decoration: none;}
+.blog h1{margin-bottom: 25px;
+          margin-top: 25px;
+           margin-left: 80px;
+          font-size: 35px;
+          font-weight: 1000;}
+.blog p{margin-left: 80px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+        font-size: 18px;}
+.readmore{float: left;
+          width: 60%;
+          margin: 0 auto;}
+.readmore hr{width: 40px;
+             display: inline-block;
+             margin-top: 30px;
+             margin-left: 80px;
+             margin-right: 0px;
+             margin-bottom: 3px;}
+.readmore span{text-transform: capitalize;
+               margin-left: 5px;}
+.readmore span a{text-decoration: none;
+                 font-size: 15px;
+                 font-weight: 1000;
+                 cursor: pointer;}
+.bsocial{float: left;
+          width: 40%;
+          margin: 0 auto;
+          margin-bottom: 50px;}
+.bsocial ul{}
+.bsocial ul li{text-transform: capitalize;
+                font-weight: 1000;}
+.bsocial ul li a{}
+.bsocial ul li a:hover{}
+
+
+footer{height: 350px;
+       background-color: #F4F8FB;
+       text-align: center;}
+.fsocial{padding-top: 60px;
+         padding-bottom: 20px;
+         text-align: center;}
+.fsocial ul{}
+.fsocial ul li{}
+.fsocial ul li a{}
+.fsocial ul li a:hover{}
+.copy{text-align: center;
+      margin-bottom: 40px;}
+.copy p{padding: 12px 0;}
+.copy p span{text-transform: capitalize;
+               font-weight: 1000;}
+ strong a{text-transform: uppercase;
+           font-size: 12px;
+           transition: all 0.5s ease;
+           color: black;}
+strong a:hover{color: #90D2EC;
+    transition: all 0.5s ease;}           
