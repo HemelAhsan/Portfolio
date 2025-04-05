@@ -46,8 +46,8 @@ header{padding: 20px 0;}
             width: 50%;
             margin: 0 auto;}
 .navigation nav{}
-.navigation nav ul{}
-.navigation nav ul li{list-style: disc;}
+.navigation nav ul{overflow: ;}
+.navigation nav ul li{list-style: disc !important;}
 .navigation nav ul li a{}
 .navigation nav ul li a:hover{}
 .hsocial{float: left;
@@ -76,7 +76,9 @@ header{padding: 20px 0;}
 .banner ul li a:hover{}
 .profile-image{position: absolute;
                bottom: 25px;
-               left: 43%;}
+               left: 43%;
+               border: 10px solid white;
+               border-radius: 50%;}
 .profile-image img{border-radius: 50%;}
 
 
